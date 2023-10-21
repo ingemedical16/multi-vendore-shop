@@ -1,0 +1,45 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Full stack MERN e-commerces",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingemedical16/e-shop.git"
+  },
+  "author": "EL IDRISSI MOHAMMED",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingemedical16/e-shop/issues"
+  },
+  "homepage": "https://github.com/ingemedical16/e-shop#readme",
+  "devDependencies": {
+    "concurrently": "8.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.41.0",
+    "cookie-parser": "1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "4.18.2",
+    "express-async-handler": "1.2.0",
+    "jsonwebtoken": "9.0.0",
+    "mongoose": "7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "6.9.1",
+    "streamifier": "^0.1.1",
+    "stripe": "^13.10.0",
+    "uuid": "9.0.0"
+  }
+}
