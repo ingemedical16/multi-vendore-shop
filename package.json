@@ -5,10 +5,10 @@
   "description": "Full stack MERN e-commerces",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "back": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
