@@ -1,3 +1,1 @@
-export const server = "http://localhost:5000/api/v2";
-
-
+export const server = "https://qlsp86-5000.csb.app/api/v2";

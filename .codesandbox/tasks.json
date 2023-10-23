@@ -12,17 +12,17 @@
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": false
+      "preview": {
+        "port": 5000
+      }
     },
     "server": {
       "name": "server",
-      "command": "npm run server",
-      "runAtStart": false
+      "command": "npm run server"
     },
     "client": {
       "name": "client",
-      "command": "npm run client",
-      "runAtStart": false
+      "command": "npm run client"
     },
     "dev": {
       "name": "dev",
